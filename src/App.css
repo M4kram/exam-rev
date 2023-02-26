@@ -1,0 +1,42 @@
+.article {
+  margin: 20px 0;
+}
+
+.sub-title {
+  margin-bottom: 5px;
+}
+
+.users {
+  border-collapse: collapse;
+  width: 450px;
+}
+
+.users tr {
+  border: 1px solid black;
+}
+
+.users td {
+  padding: 2px 5px;
+}
+
+.users tbody tr:nth-child(odd) {
+  background-color: rgb(231, 231, 231);
+}
+
+.CRUD-NAV {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.CRUD-NAV * {
+  color: white;
+  background-color: black;
+  padding: 5px 8px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.CRUD-NAV *:hover {
+  background-color: rgb(46, 46, 46);
+}
